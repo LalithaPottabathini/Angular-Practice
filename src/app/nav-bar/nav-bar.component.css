@@ -1,0 +1,36 @@
+/* Navbar container */
+.navbar {
+    background-color: #1e3a8a; /* Tailwind blue-600 */
+    color: white;
+    padding: 3px 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Left side - MyApp title */
+  .navbar .brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* Right side - Nav links container */
+  .navbar .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  /* Individual Nav Links */
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for nav links */
+  .navbar .nav-links a:hover {
+    text-decoration: underline;
+    color: #fbbf24; /* Tailwind yellow-400 */
+  }
